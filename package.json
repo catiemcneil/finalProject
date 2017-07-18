@@ -29,7 +29,7 @@
     "mongo": "^0.1.0",
     "mongoose": "^4.11.1",
     "nodemon": "^1.11.0",
-    "query-string": "^4.3.4",
+    "query-string": "^4.3.4"
   },
   "engines":{
         "node": "6.10.2"
