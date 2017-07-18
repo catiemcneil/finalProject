@@ -29,14 +29,24 @@
       document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
     </script>
 </div>
-<div class="search-results-list">
-    <ul>
-        {{#each search}}
-            <li>
-                <div>
-                    <a href="{{this.digital_location}}">{{this.show_title}}</a>
+
+<div class="backgroundImage">
+        <div class="image_container">
+            <div class="colorOverlay">
+                <div class="imageContent">
+                    <img id="image-boy" src="images/jason-rosewell-60014.jpg">
                 </div>
-            </li>
-        {{/each}}
-    </ul>
+            <div class="search-results-list">
+                <ul>
+                    {{#each search}}
+                        <li>
+                            <div>
+                                <a href="{{this.digital_location}}">{{this.show_title}}</a>
+                            </div>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
