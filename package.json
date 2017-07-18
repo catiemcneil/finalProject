@@ -1,0 +1,33 @@
+{
+  "name": "finalProject",
+  "version": "1.0.0",
+  "description": "Project Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catiemcneil/finalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catiemcneil/finalProject/issues"
+  },
+  "homepage": "https://github.com/catiemcneil/finalProject#readme",
+  "dependencies": {
+    "audiosearch-client-node": "^1.0.1",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.11.1",
+    "nodemon": "^1.11.0",
+    "query-string": "^4.3.4",
+  }
+}

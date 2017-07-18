@@ -1,0 +1,19 @@
+    <body>
+        <div class="podcast-title">
+            {{podcast.title}}
+        </div>
+        <div class="podcast-desc">
+            {{podcast.description}}
+        </div>
+        <div class="podcast-link">
+            <marquee behavior="slide" direction="left" scrollamount="100">
+                <u>
+                   <a href="{{podcast.digital_location}}">Link to Podcast</a>
+                <u>
+            </marquee>
+    </body>
+      <div class="text-center button">
+          <form action="podcast" method="get">
+              <button type="submit" class="btn btn-primary gray-circle-button btn-mdb btn-raised btn-lg shuffle-btn" id="button">Hit Me Again</button>
+          </form>
+      </div>
