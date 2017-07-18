@@ -9,18 +9,11 @@ const audiosearch = new Audiosearch(AUDIOSEARCH_APP_ID, AUDIOSEARCH_SECRET);
 
 searchRouter.get('/', (req, res) => {
 
-    var searchResults = audiosearch.searchEpisodes(req.params.search, {"size":50, "from":1})
+    var newSearch = audiosearch.searchEpisodes(req.query.search, {"size":20, "from":1})
         .then (function(results) {
 
-
-        res.render('search', {'search': results})
-
-    // res.render('search')
-
+        res.render('search', {'search': results.results})
     })
 })
-
-console.log('search page')
-
 
 module.exports = searchRouter

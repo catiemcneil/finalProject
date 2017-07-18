@@ -125,20 +125,6 @@ main a {
   line-height: 65px;
 }
 
-.box {
-  margin: 100px auto;
-  width: 300px;
-  height: 50px;
-}
-
-.container-1 .icon{
-  position: absolute;
-  top:50%;
-  margin-left: 17px;
-  margin-top: 17px;
-  z-index: 1;
-  color: black;
-}
 .wrapper {
   text-align: center;
 }
@@ -324,16 +310,11 @@ main a {
   height: 300px;
 }
 
-/*.podcast-image {
-  text-align: right;
-}*/
-background :
-       linear-gradient( rgba(38, 38, 131, 0.7 ),
-       rgba(62, 24, 62, 0.8)),
-       url('jason-rosewell-60014.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   overflow: scroll;
+.search-results-list {
+  font-size: medium;
+  font-weight: bold;
+  line-height: 25px;
+}
 
 .button {
   text-align: center;
