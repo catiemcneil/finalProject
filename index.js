@@ -26,6 +26,5 @@ app.use('/podcast', podcastRouter)
 app.use('/search', searchRouter)
 
 
-app.listen(2001, function() {
-    console.log('Listening')
-})
+let port = process.env.PORT || 2001
+app.listen(port)
